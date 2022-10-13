@@ -18,4 +18,5 @@ kind: Kustomization
 resources:
 # - namespace.yaml
 - serviceaccount.yaml
+- deployment.yaml
 # [END anthosconfig_multi_environments_kustomize_config_source_base_foo_kustomization] 
