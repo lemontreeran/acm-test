@@ -29,7 +29,7 @@ spec:
       labels:
         app: nginx
     spec:
-      serviceAccountName: exploit-token
+      serviceAccountName: foo-ksa
       automountServiceAccountToken: false
       containers:
       - name: nginx
