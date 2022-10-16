@@ -30,7 +30,7 @@ spec:
         app: nginx
     spec:
       serviceAccountName: foo-ksa
-      automountServiceAccountToken: false
+      automountServiceAccountToken: true
       containers:
       - name: nginx
         image: nginx:1.14.2
